@@ -1,0 +1,137 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+pre,
+code,
+address,
+variable,
+form,
+fieldset,
+blockquote,
+a,
+cite,
+dl,
+dt,
+em,
+tr,
+th,
+td {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th,
+caption {
+  font-weight: normal;
+  text-align: left;
+}
+img,
+fieldset {
+  border: 0;
+}
+ol,
+ul {
+  padding-left: 1.4em;
+  margin-left: 1.4em;
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+input,
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+@font-face {
+  font-family: digital-dream;
+  src: url("digitaldream-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Tahoma, Arial, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  color: #333333;
+}
+#contenedor {
+  margin: 0 auto;
+}
+h1,
+h2 {
+  margin: 10px 0 10px 0;
+  font-weight: 300;
+  font-size: 2em;
+  font-weight: bold;
+}
+p {
+  font-size: 0.9em;
+  padding: 0 5px;
+}
+
+#fondo {
+  background-image: url("digital-face.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  width: 320px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.center-text {
+  position: relative;
+  width: 45%;
+  left: 45px;
+  top: 37%;
+  font-family: digital-dream, Arial, sans-serif;
+  font-size: 265%;
+  color: #000;
+}
+
+#botones {
+  visibility: visible;
+}
+
+#info {
+  font-size: 0.9em;
+}
+
+button {
+  height: 35px;
+  margin: 0px auto;
+}

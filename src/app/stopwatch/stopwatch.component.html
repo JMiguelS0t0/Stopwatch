@@ -1,0 +1,19 @@
+<body id="cuerpo">
+    <h2>Cronómetro</h2>
+    <div id="contenedor">
+        <div id="fondo">
+            <div class="center-text">
+                <span>{{min}}:{{sec}}:{{ms}}</span>
+            </div>
+        </div>
+        <div><span id="info">&nbsp;</span></div>
+
+        <div id="botones">
+            <button type="button" id="iniciar" *ngIf="!running" (click)="start()"> Iniciar </button>
+            <button type="button" id="detener" *ngIf="running" (click)="stop()">Detener</button>
+            <button type="button" id="reiniciar" (click)="reset()"> Reiniciar </button>
+        </div>
+
+        <div id="instante"></div>
+    </div>
+</body>
